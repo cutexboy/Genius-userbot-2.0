@@ -43,7 +43,7 @@ Click Below Picture To Open VChat Bot Owner Id...
 #### 🥺 Copy Pasters You Can Copy This Repo But Must Give Credits ...
 
 ### 🌷 Owner Of This Repository 🇮🇳
-[![Bikash ](https://telegra.ph/file/52930b2b68c12769782e7.jpg)](https://t.me/Itz_prince_king)
+[![𝗣𝗿𝗶𝗻𝗰𝗲 ](https://telegra.ph/file/52930b2b68c12769782e7.jpg)](https://t.me/Itz_prince_king)
 
 
 #### Main Developer = [𝗣𝗿𝗶𝗻𝗰𝗲](https://t.me/Itz_prince_king)
