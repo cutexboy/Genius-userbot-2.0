@@ -1,56 +1,54 @@
-## About This Repository 
-Best Smart Artificial intelligence Chat bot For Telegram Groups 
-Click Below Picture To Open VChat Bot Owner Id...
+<h2>Genius-Userbot</h2>
+<p title="Genius-Userbot">Genius-Userbot is a powerful, advanced, multi-featured Telegram userbot.</p>
+
+<p align="center"><a href="https://t.me/Itz_prince_king"><img src="https://telegra.ph/file/027283ee9defebc3298b8.png"></a></p>
+
+![](PrinceKumar/resorce/maintained.svg)
+![](PrinceKumar/resource/license.svg)
+
+<h2>Deployment</h2>
+<p title="Deployment">You can use Genius-Userbot through the cloud application platform Heroku.</p>
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/cutexboy/Genius-userbot-2.0)
 
 
-<p align="center"><a href="https://t.me/BikashHalder"><img src="https://te.legra.ph/file/e30f5a295dd0ca45f0163.jpg"></a></p>
+Or, simply run the following commands in your Vps,
+
+1. At first enter this command and wait untill complete.
+```
+sudo apt update && sudo apt install git curl nano screen python3-pip ffmpeg -y && curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash && source ~/.bashrc && nvm install node
+```
+
+2. Now simply copy and paste this command and wait.
+```
+sudo rm -rf Genius && git clone https://github.com/AdityaHalder/Genius-Userbot Genius && cd Genius && pip3 install -r Installer && screen -R Genius
+```
+
+4. After that, Enter this command and put your vars and hit ```ctrl+s``` to save and hit ```ctrl+x``` To Close Text Editor.
+```
+nano Internal.env
+```
+
+6. Now enter this command and wait untill run your userbot.
+```
+cp Internal.env Internal && python3 -m AdityaHalder
+```
+
+8. Finnally, just hit ```ctrl+a+d``` to minimize your bot for run in background.
 
 
-
-### Deploy To Heroku
-
-[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/aryanbot05/BABY-CHAT-BOT-/import)
-
-
-## Deploy
-🌷 You can Deploy Easily Fork repo and Give Start 🌷
-
-## 🥀 Bot Deploy On Workflow / (KAALI LINUX)
- At 1st Import This Repo Then Input All Value In Bikash.py || Then Proceed Kaali Linux Value Or Ect.
-
-## 🥀 Kaali Linux Tutorial
-
-[Kaali Linux](https://youtu.be/_nZT5lhcL8U)
-
-## 🥀 Chat Bot Deploy Tutorial On Kaali Linux 
-
-[Kaali Linux](https://youtu.be/fFRxAG1mCVU)
-
-## ⚒️ 𝐂𝐫𝐞𝐝𝐢𝐭
-[𝐁𝐢𝐤𝐚𝐬𝐡](https://t.me/Itz_prince_king)
-
-## Telegram 🏪
-
-[![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/BGT_Chat)
-
-[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightgreen)](https://t.me/Bikashgadgetstech)
-
-## YouTube 📺
-
-[YouTube Channel](https://youtube.com/channel/UCUkj6FFzdsOO5acUXVOEECg)
+<h2>Updates and Support</h2>
+<p title="Support">You can join us on any issue related to Genius-Userbot Update and Support in Telegram.</p>
+<a href="https://t.me/The_F2F_Networks" target="_blank"><img src="AdityaHalder/resource/updates.svg"/></a>
+<a href="https://t.me/FRIENDS_2_FAMILY0" target="_blank"><img src="AdityaHalder/resource/support.svg"/></a>
 
 
-#### 🥺 Copy Pasters You Can Copy This Repo But Must Give Credits ...
+<h2>Repository Credits:</h2>
 
-### 🌷 Owner Of This Repository 🇮🇳
-[![𝗣𝗿𝗶𝗻𝗰𝗲 ](https://telegra.ph/file/52930b2b68c12769782e7.jpg)](https://t.me/Itz_prince_king)
+[Aditya Halder](https://github.com/cutexboy): Owner Of This Repostory.
 
+[Ayiin'xD](https://github.com/AyiinXd): A Developer Of This Repositry.
 
-#### Main Developer = [𝗣𝗿𝗶𝗻𝗰𝗲](https://t.me/Itz_prince_king)
+[Dan](https://github.com/pyrogram/pyrogram): Thanks For Pyrogram Library.
 
-## 💕 Special Thanks
-
-✅  Thanks For Fixed All Error Or Lovely Support 💕
-
-
-## 🥀 Powered By [𝗣𝗿𝗶𝗻𝗰𝗲 𝗸𝗶𝗻𝗴 ](https://t.me/Itz_prince_king)
+[Laky64](https://github.com/pytgcalls/pytgcalls): Thanks For PyTgCalls.
