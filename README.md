@@ -45,7 +45,7 @@ cp Internal.env Internal && python3 -m AdityaHalder
 
 <h2>Repository Credits:</h2>
 
-[Aditya Halder](https://github.com/cutexboy): Owner Of This Repostory.
+[Prince Kumar](https://github.com/cutexboy): Owner Of This Repostory.
 
 [Ayiin'xD](https://github.com/AyiinXd): A Developer Of This Repositry.
 
