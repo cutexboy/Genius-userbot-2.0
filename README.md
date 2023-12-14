@@ -49,6 +49,8 @@ cp Internal.env Internal && python3 -m AdityaHalder
 
 [Ayiin'xD](https://github.com/AyiinXd): A Developer Of This Repositry.
 
+[Pi͢͢͢kสcђu♡](https://github.com/IR-O): Thanks For Erro Fix
+
 [Dan](https://github.com/pyrogram/pyrogram): Thanks For Pyrogram Library.
 
 [Laky64](https://github.com/pytgcalls/pytgcalls): Thanks For PyTgCalls.
