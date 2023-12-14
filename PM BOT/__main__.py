@@ -15,7 +15,7 @@ async def aditya():
     log.info("Importing all plugins ...")
     for all_plugin in ALL_PLUGINS:
         imported_plugin = importlib.import_module(
-            "AdityaHalder.plugins." + all_plugin)
+            "PM BOT.plugins." + all_plugin)
         if (hasattr(imported_plugin, "__NAME__"
            ) and imported_plugin.__NAME__):
             imported_plugin.__NAME__ = imported_plugin.__NAME__
