@@ -1,7 +1,7 @@
 import os
 
 from .console import LOGGER
-from .modules.core import Aditya
+from .modules.core import PMBOT
 from .modules.vars import Config
 from .modules.utils import commandx
 from .modules.utils import commandz
