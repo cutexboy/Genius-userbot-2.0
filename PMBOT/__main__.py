@@ -10,7 +10,7 @@ from .plugins import ALL_PLUGINS
 
 loop = asyncio.get_event_loop()
 
-async def aditya():
+async def pmbot():
     await client.start()
     log.info("Importing all plugins ....")
     for all_plugin in ALL_PLUGINS:
