@@ -3,7 +3,7 @@ import importlib
 
 from pytgcalls import idle
 
-from . import aditya as client
+from . import pmbot as client
 from .import PLUGINS, log
 from .plugins import ALL_PLUGINS
 
