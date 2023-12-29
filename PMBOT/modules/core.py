@@ -42,19 +42,19 @@ except Exception as e:
 class Aditya(Client, PyTgCalls):
     def __init__(self):
         self.app = Client(
-            name = "Princekumar",
+            name = "PMBOT",
             api_id = Config.API_ID,
             api_hash = Config.API_HASH,
             session_string = Config.STRING_SESSION,
         )
         self.ass = Client(
-            name = "PrinceKumar",
+            name = "PMBOT",
             api_id = Config.API_ID,
             api_hash = Config.API_HASH,
             session_string = Config.SESSION_STRING,
         )
         self.bot = Client(
-            name = "PrinceKumar",
+            name = "PMBOT",
             api_id = Config.API_ID,
             api_hash = Config.API_HASH,
             bot_token = Config.BOT_TOKEN,
