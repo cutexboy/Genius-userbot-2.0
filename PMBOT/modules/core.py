@@ -146,6 +146,5 @@ class Daxx(Client, PyTgCalls):
                 if user_id not in Config.SUDOERS:
                     Config.SUDOERS.add(user_id)
         LOGGER.info(f"All Sudoers Loaded.")
-        d.")
         
 
