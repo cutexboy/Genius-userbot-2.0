@@ -35,10 +35,10 @@ for file in os.listdir():
         os.remove(file)
 
 
-aditya = Aditya()
-app = aditya.app
-bot = aditya.bot
-call = aditya.call
+PMBOT = PMBOT()
+app = PMBOT.app
+bot = PMBOT.bot
+call = PMBOT.call
 log = LOGGER
 var = Config()
 
