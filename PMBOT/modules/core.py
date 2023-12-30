@@ -32,29 +32,29 @@ try:
     LOGGER.info("Connecting To Mongo Database ...")
     MONGO_DB_URL = Config.MONGO_DATABASE
     _mongo_async_ = AsyncIOMotorClient(MONGO_DB_URL)
-    mongodb = _mongo_async_.Genius
+    mongodb = _mongo_async_.Daxx
     LOGGER.info("Succesfully Connected.")
 except Exception as e:
     print(f"Error: {e}")
     LOGGER.error("Failed To Connect To Your Mongo Database.")
     exit()
 
-class Aditya(Client, PyTgCalls):
+class Daxx(Client, PyTgCalls):
     def __init__(self):
         self.app = Client(
-            name = "PMBOT",
+            name = "PMYTBOT",
             api_id = Config.API_ID,
             api_hash = Config.API_HASH,
             session_string = Config.STRING_SESSION,
         )
         self.ass = Client(
-            name = "PMBOT",
+            name = "PMYTBOT",
             api_id = Config.API_ID,
             api_hash = Config.API_HASH,
             session_string = Config.SESSION_STRING,
         )
         self.bot = Client(
-            name = "PMBOT",
+            name = "Itz_prince_king",
             api_id = Config.API_ID,
             api_hash = Config.API_HASH,
             bot_token = Config.BOT_TOKEN,
@@ -77,7 +77,7 @@ class Aditya(Client, PyTgCalls):
             Config.SUDOERS.add(int(self.app.id))
         try:
             await self.app.join_chat("The_F2F_Shayri")
-            await self.app.join_chat("FRIENDS_2_FAMILY0")
+            await self.app.join_chat("FRIENDS2FAMILY_0")
             await self.app.join_chat("The_F2F_Dpz")
         except:
             pass
@@ -92,7 +92,7 @@ class Aditya(Client, PyTgCalls):
             self.ass.id = self.ass.me.id
             try:
                 await self.ass.join_chat("The_F2F_Shayri")
-                await self.ass.join_chat("FRIENDS_2_FAMILY0")
+                await self.ass.join_chat("FRIENDS2FAMILY_0")
                 await self.ass.join_chat("The_F2F_Dpz")
             except:
                 pass
@@ -120,7 +120,7 @@ class Aditya(Client, PyTgCalls):
             await asyncio.sleep(1)
             await self.app.send_message(f"@botfather", f"@{self.bot.username}")
             await asyncio.sleep(1)
-            await self.app.send_message(f"@botfather", "🥀 𝐆𝐞𝐧𝐢𝐮𝐬 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 ✨")
+            await self.app.send_message(f"@botfather", "🥀 𝐃𝐚𝐱𝐱 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 ✨")
         except:
             pass
         try:
@@ -146,5 +146,6 @@ class Aditya(Client, PyTgCalls):
                 if user_id not in Config.SUDOERS:
                     Config.SUDOERS.add(user_id)
         LOGGER.info(f"All Sudoers Loaded.")
+        d.")
         
 
