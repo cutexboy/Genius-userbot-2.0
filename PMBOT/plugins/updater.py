@@ -64,7 +64,7 @@ async def update_userbot(client, message):
         await message.edit("**🔃 Updating ...**")
         os.system("git pull -f && pip3 install -r Installer")
         await message.edit("**💕 Updated, Now Please\nWait Untill Restart. ✨**")
-        os.system(f"kill -9 {os.getpid()} && python3 -m AdityaHalder")
+        os.system(f"kill -9 {os.getpid()} && python3 -m PMYBOT")
         return
     else:
         await message.edit(f"**🥀 Genius Userbot Already\nUpdated To Latest 🔥 ...\n\n💕 For Any Query › Contact\nTo » @Itz_prince_king ✨ ...**")
