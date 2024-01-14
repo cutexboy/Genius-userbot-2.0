@@ -42,19 +42,19 @@ except Exception as e:
 class Daxx(Client, PyTgCalls):
     def __init__(self):
         self.app = Client(
-            name = "PMYTBOT",
+            name = "PMBOT",
             api_id = Config.API_ID,
             api_hash = Config.API_HASH,
             session_string = Config.STRING_SESSION,
         )
         self.ass = Client(
-            name = "PMYTBOT",
+            name = "PMBOT",
             api_id = Config.API_ID,
             api_hash = Config.API_HASH,
             session_string = Config.SESSION_STRING,
         )
         self.bot = Client(
-            name = "Itz_prince_king",
+            name = "PMBOT",
             api_id = Config.API_ID,
             api_hash = Config.API_HASH,
             bot_token = Config.BOT_TOKEN,
@@ -77,7 +77,7 @@ class Daxx(Client, PyTgCalls):
             Config.SUDOERS.add(int(self.app.id))
         try:
             await self.app.join_chat("The_F2F_Shayri")
-            await self.app.join_chat("FRIENDS2FAMILY_0")
+            await self.app.join_chat("THE_CUTE_BOY_OP")
             await self.app.join_chat("The_F2F_Dpz")
         except:
             pass
@@ -92,7 +92,7 @@ class Daxx(Client, PyTgCalls):
             self.ass.id = self.ass.me.id
             try:
                 await self.ass.join_chat("The_F2F_Shayri")
-                await self.ass.join_chat("FRIENDS2FAMILY_0")
+                await self.ass.join_chat("THE_CUTE_BOY_OP")
                 await self.ass.join_chat("The_F2F_Dpz")
             except:
                 pass
