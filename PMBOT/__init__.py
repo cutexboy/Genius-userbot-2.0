@@ -1,62 +1,49 @@
-import os
+# Ai-Userbot Version
+__version__ = "v2.1.0"
 
+
+# All Clients
+from .modules.clients.clients import (
+    app, bot, call
+)
+app = app
+bot = bot
+call = call
+
+
+# Command Handlers
+from .modules.helpers.filters import (
+    commandx, commandz
+)
+cdx = commandx
+cdz = commandz
+
+
+# Edit Or Reply
+from .modules.helpers.events import (
+    edit_or_reply
+)
+eor = edit_or_reply
+
+
+# Logger
 from .console import LOGGER
-from .modules.core import PMBOT
-from .modules.vars import Config
-from .modules.utils import commandx
-from .modules.utils import commandz
-
-__version__ = "v2.0.1"
-
-if Config.API_ID == 0:
-    LOGGER.error("API_ID is missing! Kindly check again!")
-    exit()
-if not Config.API_HASH:
-    LOGGER.error("API_HASH is missing! Kindly check again!")
-    exit()
-if not Config.BOT_TOKEN:
-    LOGGER.error("BOT_TOKEN is missing! Kindly check again!")
-    exit()
-if not Config.STRING_SESSION:
-    LOGGER.error("STRING_SESSION is missing! Kindly check again!")
-    exit()
-if not Config.MONGO_DATABASE:
-    LOGGER.error("DATABASE_URL is missing! Kindly check again!")
-    exit()
-if Config.LOG_GROUP_ID == 0:
-    LOGGER.error("LOG_GROUP_ID is missing! Kindly check again!")
-    exit()
-
-for file in os.listdir():
-    if file.endswith(".session"):
-        os.remove(file)
-for file in os.listdir():
-    if file.endswith(".session-journal"):
-        os.remove(file)
+logs = LOGGER
 
 
-PMBOT = PMBOT()
-app = PMBOT.app
-bot = PMBOT.bot
-call = PMBOT.call
-log = LOGGER
-var = Config()
-
-db = {}
-flood = {}
-OLD_MSG = {}
-
-commandx = commandx
-commandz = commandz
-
-PLUGINS = var.PLUGINS
-SUPUSER = var.SUPUSER
-SUDOERS = var.SUDOERS
-GDELSUB = var.GDELSUB
+# Plugins
+from .console import PLUGINS
+plugs = PLUGINS
 
 
-from .modules.func import eor
-eor = eor
+# Variables
+from . import console as config
+vars = config
 
-from .modules.misc import sudo_user_only
-sudo_user_only = sudo_user_only
+
+# Decorators
+from .modules.helpers.wrapper import (
+    super_user_only, sudo_users_only
+)
+super_user_only = super_user_only
+sudo_users_only = sudo_users_only
